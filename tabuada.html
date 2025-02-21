@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<script>
+
+	var numeroASerMutiplicado;
+
+	numeroASerMutiplicado = prompt("Insira um numero a ser multiplicado: ");
+	
+	function pulaLinha() {
+
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+
+		mostra(numeroASerMutiplicado * multiplicador);
+	}
+
+	mostra("FIM");  
+		
+</script>
+
+
+
+

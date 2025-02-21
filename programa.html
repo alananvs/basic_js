@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	const dataAtual = new Date();
+	const anoAtual = dataAtual.getFullYear();
+	
+	anoNasc = prompt("Em que ano você nasceu?");
+
+	// while (anoNasc => anoAtual) {
+		mostra("Uau, você já têm " + (anoAtual - anoNasc) + " anos");
+	// }
+
+	
+	
+
+</script>
+
+
+
+
