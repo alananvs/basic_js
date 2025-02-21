@@ -1,6 +1,6 @@
 # Basicos do JavaScript
 
-Linguagem: ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+Linguagem: ![JavaScript](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
 
 Programas:
 - Anos que a copa aconteceu e irá acontecer
